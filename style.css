@@ -1,0 +1,29 @@
+.block {
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-row {
+  display: flex;
+}
+
+#grid {
+  margin: 0 auto;
+  width: 600px;
+}
+
+
+.red-circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.uncovered {
+  background-color: lightgrey;
+}
